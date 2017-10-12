@@ -1,0 +1,36 @@
+<?xml.version = "1.0"?>
+<Uplatnica
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dusansimic.cf sema.xsd"
+	xmlns="http://dusansimic.cf"
+	>
+	<Nalogodavac>
+		<Ime>Dusan Simic</Ime>
+		<Adresa>Zlatne Grede 4 21000 Novi Sad</Adresa>
+	</Nalogodavac>
+	<SvrhaPlacanja>Ekskurzija</SvrhaPlacanja>
+	<Primalac>
+		<Ime>Vukasin Dekanic</Ime>
+		<Adresa>Zlatne Grede 4 21000 Novi Sad</Adresa>
+	</Primalac>
+	<InfPlacanje>
+		<SifraPlacanja>666</SifraPlacanja>
+		<Valuta>RSD</Valuta>
+		<Iznos>24000.00</Iznos>
+	</InfPlacanje>
+	<InfNalogodavac>
+		<RacunNalogodavca>840-1710660-30</RacunNalogodavca>
+		<BrojModela>97</BrojModela>
+		<PozivNaBroj>123-456</PozivNaBroj>
+	</InfNalogodavac>
+	<InfPrimalac>
+		<RacunPrimaoca>380-3569852365147-42</RacunPrimaoca>
+		<BrojModela>97</BrojModela>
+		<PozivNaBroj>12345-67</PozivNaBroj>
+	</InfPrimalac>
+	<MestoIDatumPrijema>
+		<Mesto>Novi Sad</Mesto>
+		<Datum>15.06.2012.</Datum>
+	</MestoIDatumPrijema>
+	<DatumValute>15.06.2012.</DatumValute>
+</Uplatnica>

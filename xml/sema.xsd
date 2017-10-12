@@ -1,0 +1,132 @@
+<?xml.version = "1.0"?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://dusansimic.cf"
+	xmlns="http://dusansimic.cf"
+	elementFormDefault="qualified"
+	>
+	<xsd:element name="Uplatnica">
+		<xsd:complexType>
+			<xsd:sequence minOccurs="1" maxOccurs="1">
+				<xsd:element name="Nalogodavac">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="1" maxOccurs="1">
+							<xsd:element name="Ime" type="xsd:string"/>
+							<xsd:element name="Adresa" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="SvrhaPlacanja" type="xsd:string"/>
+				<xsd:element name="Primalac">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="1" maxOccurs="1">
+							<xsd:element name="Ime" type="xsd:string"/>
+							<xsd:element name="Adresa" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="InfPlacanje">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="1" maxOccurs="1">
+							<xsd:element name="SifraPlacanja">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:pattern value="\d{3}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Valuta">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:minLength value="3"/>
+										<xsd:maxLength value="3"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="Iznos">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:decimal">
+										<xsd:minInclusive value="0"/>
+										<xsd:fractionDigits value="2"/>
+										<xsd:pattern value="\d+\.\d{2}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="InfNalogodavac">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="1" maxOccurs="1">
+							<xsd:element name="RacunNalogodavca">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="\d{3}\-\d{7}\-\d{2}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="BrojModela">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:pattern value="\d{2}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="PozivNaBroj">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string"/>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="InfPrimalac">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="1" maxOccurs="1">
+							<xsd:element name="RacunPrimaoca">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="\d{3}\-\d{13}\-\d{2}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="BrojModela">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:pattern value="\d{2}"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="PozivNaBroj">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string"/>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="MestoIDatumPrijema">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="1" maxOccurs="1">
+							<xsd:element name="Mesto" type="xsd:string"/>
+							<xsd:element name="Datum">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="\d{2}\.\d{2}\.\d{4}\."></xsd:pattern>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="DatumValute">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+										<xsd:pattern value="\d{2}\.\d{2}\.\d{4}\."></xsd:pattern>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

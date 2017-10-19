@@ -109,23 +109,11 @@
 					<xsd:complexType>
 						<xsd:sequence minOccurs="1" maxOccurs="1">
 							<xsd:element name="Mesto" type="xsd:string"/>
-							<xsd:element name="Datum">
-								<xsd:simpleType>
-									<xsd:restriction base="xsd:string">
-										<xsd:pattern value="\d{2}\.\d{2}\.\d{4}\."></xsd:pattern>
-									</xsd:restriction>
-								</xsd:simpleType>
-							</xsd:element>
+							<xsd:element name="Datum" type="xsd:date"/>
 						</xsd:sequence>
 					</xsd:complexType>
 				</xsd:element>
-				<xsd:element name="DatumValute">
-					<xsd:simpleType>
-						<xsd:restriction base="xsd:string">
-										<xsd:pattern value="\d{2}\.\d{2}\.\d{4}\."></xsd:pattern>
-						</xsd:restriction>
-					</xsd:simpleType>
-				</xsd:element>
+				<xsd:element name="DatumValute" type="xsd:date"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>

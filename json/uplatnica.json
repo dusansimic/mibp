@@ -1,0 +1,27 @@
+{
+	"inf-nalogodavca": {
+		"ime": "Fakultet Tehnickih nauka",
+		"adresa": "Trg Dositeja Obradovica 6",
+		"mesto": "21000 Novi Sad",
+		"racun": "840-1710660-30",
+		"br-modela": 97,
+		"poziv-na-br": "123-456"
+	},
+	"svrha-placanja": "Uplata po fakturi br. 16",
+	"inf-primaoca": {
+		"ime": "Telekom Srbija Fiksna Telefonija Novi Sad",
+		"adresa": "Sutjeska 2",
+		"mesto": "21000 Novi Sad",
+		"racun": "380-4567897-42",
+		"br-modela": 97,
+		"poziv-na-br": "123-567"
+	},
+	"sifra-placanja": 153,
+	"valuta": "RSD",
+	"iznos": 8000.00,
+	"datum-valute": "2012-06-15",
+	"mesto-i-datum-prijema": {
+		"mesto": "Novi Sad",
+		"datum": "2012-06-15"
+	}
+}

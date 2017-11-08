@@ -1,0 +1,88 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"title": "Uplatnica",
+	"type": "object",
+	"properties": {
+		"inf-nalogodavca": {
+			"type": "object",
+			"properties": {
+				"ime": {
+					"type": "string"
+				},
+				"adresa": {
+					"type": "string"
+				},
+				"mesto": {
+					"type": "string"
+				},
+				"racun": {
+					"type": "string",
+					"pattern": "[0-9]{3}-[0-9]{7}-[0-9]{2}"
+				},
+				"br-modela": {
+					"type": "integer"
+				},
+				"poziv-na-br": {
+					"type": "string",
+					"pattern": "[0-9]{3}-[0-9]{3}"
+				}
+			}
+		},
+		"svrha-placanja": {
+			"type": "string"
+		},
+		"inf-primaoca": {
+			"type": "object",
+			"properties": {
+				"ime": {
+					"type": "string"
+				},
+				"adresa": {
+					"type": "string"
+				},
+				"mesto": {
+					"type": "string"
+				},
+				"racun": {
+					"type": "string",
+					"pattern": "[0-9]{3}-[0-9]{7}-[0-9]{2}"
+				},
+				"br-modela": {
+					"type": "integer"
+				},
+				"poziv-na-br": {
+					"type": "string",
+					"pattern": "[0-9]{3}-[0-9]{3}"
+				}
+			}
+		},
+		"sifra-placanja": {
+			"type": "integer"
+		},
+		"valuta": {
+			"type": "string",
+			"minLength": 3,
+			"maxLength": 3
+		},
+		"iznos": {
+			"type": "number",
+			"minimum": 0.00
+		},
+		"datum-valute": {
+			"type": "string",
+			"format": "date"
+		},
+		"mesto-i-datum-prijema": {
+			"type": "object",
+			"properties": {
+				"mesto": {
+					"type": "string"
+				},
+				"datum": {
+					"type": "string",
+					"format": "date"
+				}
+			}
+		}
+	}
+}

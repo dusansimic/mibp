@@ -1,0 +1,29 @@
+{
+	"jmbg": "1810000800010",
+	"komentari": [
+		{
+			"tekst": "komentar 1",
+			"ocena": 1
+		},
+		{
+			"tekst": "komentar 2",
+			"ocena": 2
+		},
+		{
+			"tekst": "komentar 3",
+			"ocena": 2
+		},
+		{
+			"tekst": "komentar 4",
+			"ocena": 4
+		},
+		{
+			"tekst": "komentar 5",
+			"ocena": 2
+		},
+		{
+			"tekst": "komentar 6",
+			"ocena": 2
+		}
+	]
+}

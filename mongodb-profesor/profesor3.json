@@ -1,0 +1,14 @@
+{
+	"jmbg": "2308000800076",
+	"ime": "Aleksa",
+	"prezime": "Vujnic",
+	"datum-rodjenja": "2000-08-23",
+	"skole": [
+		"Gimnazija Jovan Jovanovic Zmaj",
+		"Gimnazija Svetozar Markovic"
+	],
+	"predmeti": [
+		"Fizika"
+	],
+	"ocena": 4.34
+}

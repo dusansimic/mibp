@@ -1,15 +1,15 @@
 {
-	"jmbg": "2308000800076",
+	"jmbg": "1908000800029",
 	"komentari": [
 		{
 			"username": "user1",
 			"tekst": "komentar 1",
-			"ocena": 4
+			"ocena": 3
 		},
 		{
 			"username": "user2",
 			"tekst": "komentar 2",
-			"ocena": 5
+			"ocena": 4
 		},
 		{
 			"username": "user3",

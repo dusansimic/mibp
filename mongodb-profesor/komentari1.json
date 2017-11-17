@@ -2,26 +2,32 @@
 	"jmbg": "1810000800010",
 	"komentari": [
 		{
+			"username": "user1",
 			"tekst": "komentar 1",
 			"ocena": 1
 		},
 		{
+			"username": "user2",
 			"tekst": "komentar 2",
 			"ocena": 2
 		},
 		{
+			"username": "user3",
 			"tekst": "komentar 3",
 			"ocena": 2
 		},
 		{
+			"username": "user4",
 			"tekst": "komentar 4",
 			"ocena": 4
 		},
 		{
+			"username": "user5",
 			"tekst": "komentar 5",
 			"ocena": 2
 		},
 		{
+			"username": "user6",
 			"tekst": "komentar 6",
 			"ocena": 2
 		}

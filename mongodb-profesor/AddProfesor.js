@@ -2,12 +2,14 @@ const MongoClient = require('mongodb').MongoClient;
 const Profesori = [
 	require('./profesor1.json'),
 	require('./profesor2.json'),
-	require('./profesor3.json')
+	require('./profesor3.json'),
+	require('./profesor4.json')
 ];
 const Komentari = [
 	require('./komentari1.json'),
 	require('./komentari2.json'),
-	require('./komentari3.json')
+	require('./komentari3.json'),
+	require('./komentari4.json')
 ];
 
 MongoClient.connect('mongodb://localhost:27017/profesori', (err, db) => {

@@ -1,0 +1,19 @@
+{
+  "name": "TrecaAplikacija",
+  "version": "0.1.1",
+  "description": "Demonstrira CRUD operacije nad MongoDB upotrebom driver-a",
+  "author": "Dragan Ivanovic <dragan.ivanovic@uns.ac.rs>",
+  "contributors": [
+    "Dušan Simić <dusan.simic1810@gmail.com>"
+  ],
+  "dependencies": {
+    "mongodb": "^2.2.11"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "license": "Creative Commons"
+}

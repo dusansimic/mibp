@@ -1,0 +1,16 @@
+{
+  "name": "CetvrtaAplikacija",
+  "version": "0.1.1",
+  "description": "Demonstrira rad sa MongoDB upotrebom Mongoose ODM",
+  "author": "Dragan Ivanovic <dragan.ivanovic@uns.ac.rs>",
+  "contributors": [
+    "Dušan Simić <dusan.simic1810@gmail.com>"
+  ],
+  "dependencies": {
+    "mongoose": "^4.3.7"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "license": "Creative Commons"
+}
